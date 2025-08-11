@@ -15,22 +15,22 @@ Source: Kaggle – Titanic Dataset
 File used: train.csv
 
 Steps Performed
-- Data Loading & Inspection
+- Data Loading & Inspection :
 Checked dataset shape, data types, and missing values.
-- Data Cleaning
+- Data Cleaning :
 Filled missing Embarked with mode.
 Filled missing Age using median grouped by Passenger Class and Sex.
 Dropped Cabin due to high missing percentage.
 
-- Feature Engineering
+- Feature Engineering :
 Created FamilySize column.
 Created AgeGroup column for categorical age analysis.
 
-- Univariate Analysis
+- Univariate Analysis :
 Plotted distributions and counts for survival, age, and fare.
 
-- Bivariate Analysis
+- Bivariate Analysis :
 Compared survival rate by Sex, Pclass, and AgeGroup.
 
-- Multivariate Analysis
+- Multivariate Analysis :
 Generated a correlation heatmap for numeric features.
